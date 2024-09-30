@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  .navbar {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h2 {
+    font-size: 3rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .btn {
+    background-color: #52b788;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #40916c;
+  }
+  
+  .dashboard {
+    background-color: #fff;
+    padding: 2rem 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .card h3 {
+    color: #2d6a4f;
+    margin-bottom: 10px;
+  }
+  
+  .card button {
+    padding: 10px 20px;
+    background-color: #52b788;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #40916c;
+  }
+  
+  footer {
+    background-color: #2d6a4f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
